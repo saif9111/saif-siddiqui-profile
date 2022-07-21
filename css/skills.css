@@ -1,0 +1,579 @@
+.development_title {
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  letter-spacing: 3px;
+}
+
+.skills-bar-container {
+  position: relative;
+  margin: 0 auto;
+  width: 85%;
+  min-width: 350px;
+  top: 9%;
+  transform: translate(-50%, -50%) s;
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.skills-bar-container li {
+  position: relative;
+  width: 100%;
+  padding: 2px 2px;
+}
+
+.progressbar-title {
+  color: #fff200;
+}
+
+.progressbar-title h3 {
+  display: inline-block;
+  position: relative;
+  top: 17px;
+  color: #888;
+}
+
+.progressbar-title .percent {
+  position: absolute;
+  right: 2px;
+  top: 40px;
+}
+
+.bar-container {
+  background: #555;
+  position: relative;
+  width: 100%;
+  height: 10px;
+  display: block;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 19px;
+  margin-top: 1rem;
+}
+
+.bar-container .progressbar {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+}
+
+.progresstomatoes {
+  background: #fff200;
+}
+
+#progress-html {
+  animation-name: progress-html;
+  animation-delay: 0.7s;
+}
+
+#progress-css {
+  animation-name: progress-css;
+  animation-delay: 1.4s;
+}
+
+#progress-javascript {
+  animation-name: progress-javascript;
+  animation-delay: 2.1s;
+}
+
+#progress-php {
+  animation-name: progress-php;
+  animation-delay: 2.8s;
+}
+
+#progress-wordpress {
+  animation-name: progress-wordpress;
+  animation-delay: 3.5s;
+}
+
+#progress-bootstrap {
+  animation-name: progress-bootstrap;
+  animation-delay: 4.2s;
+}
+
+#progress-laravel {
+  animation-name: progress-laravel;
+  animation-delay: 4.9s;
+}
+
+@-webkit-keyframes progress-html {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+
+@-moz-keyframes progress-html {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+
+@-ms-keyframes progress-html {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes progress-html {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes progress-css {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+
+@-moz-keyframes progress-css {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+
+@-ms-keyframes progress-css {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes progress-css {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes progress-javascript {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+
+@-moz-keyframes progress-javascript {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+
+@-ms-keyframes progress-javascript {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes progress-javascript {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+
+@-webkit-keyframes progress-php {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 55%;
+  }
+}
+
+@-moz-keyframes progress-php {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 55%;
+  }
+}
+
+@-ms-keyframes progress-php {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 55%;
+  }
+}
+
+@keyframes progress-php {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 55%;
+  }
+}
+
+@-webkit-keyframes progress-bootstrap {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 75%;
+  }
+}
+
+@-moz-keyframes progress-bootstrap {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 75%;
+  }
+}
+
+@-ms-keyframes progress-bootstrap {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes progress-bootstrap {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 75%;
+  }
+}
+
+@-webkit-keyframes progress-wordpress {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 65%;
+  }
+}
+
+@-moz-keyframes progress-wordpress {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 65%;
+  }
+}
+
+@-ms-keyframes progress-wordpress {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes progress-wordpress {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 65%;
+  }
+}
+
+@-webkit-keyframes progress-laravel {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 35%;
+  }
+}
+
+@-moz-keyframes progress-laravel {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 35%;
+  }
+}
+
+@-ms-keyframes progress-laravel {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 35%;
+  }
+}
+
+@keyframes progress-laravel {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 35%;
+  }
+}
+
+/* .title {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding: 0 0 0 4rem;
+  background-color: #fff200;
+  color: #222;
+  width: 28%;
+  border-radius: 0 6px 6px 0;
+} */
+
+.title {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  position: relative;
+  left: 50%;
+  transform: translate(-51%, 0);
+  display: inline-block;
+  margin-top: 3rem;
+}
+
+.title::after {
+  content: url(../images/line.png); 
+  position: relative;
+  top: 0rem;
+  left: 1rem;
+
+}
+
+.title::before {
+  content: url(../images/line.png);
+  left: -1rem;
+  position: relative;
+  top: 0rem;
+
+}
+
+#skills {
+  padding-bottom: 6rem;
+}
+
+.aboutName {
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.aboutContent {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin-left: 1rem;
+  letter-spacing: 1px;
+  color: #888;
+}
+
+.downloadCv {
+  font-size: 1.3rem;
+  color: #000;
+  text-decoration: none;
+  background-color: #fff200;
+  font-weight: 600;
+  padding: 1rem 1.8rem;
+  display: inline-block;
+  margin: 1rem;
+  border-radius: 25px;
+  transition: 0.4s;
+}
+
+.downloadCv:hover {
+  -webkit-box-shadow: 0px 0px 145px 6px rgba(255, 242, 0, 0.9);
+  -moz-box-shadow: 0px 0px 145px 6px rgba(255, 242, 0, 0.9);
+  box-shadow: 0px 0px 145px 6px rgba(255, 242, 0, 0.9);
+  color: #000;
+
+}
+
+.formContainer {
+  background-color: #fff200;
+  color: #000;
+  text-align: center;
+  width: 70%;
+  padding: 1.5rem 2.5rem;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0px);
+  border-radius: 33px 0 33px 0;
+}
+
+.formTitle {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.inputFields {
+  display: block;
+  width: 100%;
+  line-height: 2.5rem;
+  margin: 1rem 0;
+  border: none;
+  padding: 0.4rem 2rem;
+  border-radius: 25px;
+}
+
+
+.inputFields:focus {
+  -webkit-box-shadow: 1px 0px 37px -6px #000000;
+  -moz-box-shadow: 1px 0px 37px -6px #000000;
+  box-shadow: 1px 0px 37px -6px #000000;
+  color: #000;
+  outline: none;
+
+}
+
+.formBtn {
+  padding: 1rem 3.5rem;
+}
+
+.formBtn:hover {
+  -webkit-box-shadow: 1px 0px 37px -6px #000000;
+  -moz-box-shadow: 1px 0px 37px -6px #000000;
+  box-shadow: 1px 0px 37px -6px #000000;
+  color: #000;
+
+}
+
+.mb4r {
+  margin-bottom: 4rem;
+}
+
+.pt5r {
+  padding-top: 5rem;
+}
+
+footer {
+  background-color: #fff200;
+  color: #000;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+
+
+/* ******** Media Query ******* */
+
+@media screen and (max-width: 767px) {
+
+  .title {
+    font-size: 2rem;
+}
+
+  .title::after {
+    content: url(../images/line2m.png); 
+    position: relative;
+    top: 0rem;
+    left: 1rem;
+  
+  }
+  
+  .title::before {
+    content: url(../images/line2m.png);
+    left: -1rem;
+    position: relative;
+    top: 0rem;
+  
+  }
+
+  .skills-bar-container {
+    min-width: 340px;
+}
+
+.skills-bar-container li {
+  width: 94%;
+}
+
+.pt5r {
+  padding-top: 1rem;
+}
+
+.formContainer {
+  width: 100%;
+}
+
+footer{
+  margin-top: 1rem;
+}
+
+}
